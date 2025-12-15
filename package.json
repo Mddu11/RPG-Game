@@ -1,0 +1,35 @@
+{
+  "name": "RPG-Game",
+  "version": "1.0.0",
+  "description": "RPG-Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mddu11/RPG-Game.git"
+  },
+  "keywords": [
+    "RPG",
+    "Game",
+    "RPG-Game"
+  ],
+  "author": "Matfei Nikolaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mddu11/RPG-Game/issues"
+  },
+  "homepage": "https://github.com/Mddu11/RPG-Game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "eslint": "^9.39.2"
+  },
+  "dependencies": {
+    "core-js": "^3.47.0"
+  }
+}
